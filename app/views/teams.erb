@@ -1,0 +1,9 @@
+<h1> Flatiron </h1>
+<h2> Team Name: <%=@team.name%> </h2>
+<h2> Team Motto: <%=@team.motto%> </h2>
+<% @heros.each do |x| %>
+<h4>Hero Name: <%=x.name%> </h4>
+<h6>Hero Power: <%=x.power%></h6>
+<h6>Hero Biography: <%=x.bio%></h6>
+<% end %>
+
